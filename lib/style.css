@@ -6,3 +6,7 @@ body {
 button {
     background: red;
 }
+.hidden {
+    display: block;
+    
+}

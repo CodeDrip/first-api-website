@@ -8,5 +8,14 @@ button {
 }
 .hidden {
     display: block;
-    
+}
+.square {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    background: pink;
+    margin: 10;
+    border: 10px white solid;
 }

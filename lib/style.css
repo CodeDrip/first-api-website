@@ -1,21 +1,48 @@
 body {
+    display: flex;
+    flex-direction: column;
     background: black;
     color: pink;
+    margin: 0 auto;
+    text-align: center;
 }
-
+h1 {
+    display: block;
+}
 button {
     background: red;
 }
 .hidden {
     display: block;
 }
-.square {
+.form {
+    display: inline-block;
+    height: 20px;
+}
+button {
+    height: 26px;
+}
+input {
+    height: 20px;
+}
+main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100px;
-    width: 100px;
+    justify-content: center;
+
+
+
+}
+.square {
+    float: left;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    height: 200px;
+    width: 300px;
     background: pink;
-    margin: 10;
-    border: 10px white solid;
+    color: black;
+    margin: 10px;
+    border: 10px rgb(111, 111, 111) solid;
 }

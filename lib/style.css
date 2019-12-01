@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    width: 100%;
     background: black;
     color: pink;
     margin: 0 auto;
@@ -19,6 +20,17 @@ button {
     display: inline-block;
     height: 20px;
 }
+article {
+    visibility: hidden;
+    /* visibility: visible; */
+    display: none;
+    top: 35vh;
+    right: 25vw; 
+    width:600px;
+    height: 350px;
+    position: fixed;
+    background: cadetblue;
+}
 button {
     height: 26px;
 }
@@ -30,9 +42,6 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
 }
 .square {
     float: left;
@@ -41,7 +50,11 @@ main {
     /* flex-wrap: wrap; */
     height: 200px;
     width: 300px;
-    background: pink;
+    /* background: pink; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     color: black;
     margin: 10px;
     border: 10px rgb(111, 111, 111) solid;

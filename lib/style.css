@@ -2,13 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: black;
+    background: rgb(6,4,40);
+    background: linear-gradient(149deg, rgba(6,4,40,1) 0%, rgba(5,0,102,1) 100%);
     color: pink;
     margin: 0 auto;
     text-align: center;
+
 }
 h1 {
     display: block;
+}
+h3 {
+    color: cornsilk;
+
 }
 button {
     background: red;
@@ -23,19 +29,49 @@ button {
 article {
     visibility: hidden;
     /* visibility: visible; */
-    display: none;
-    top: 35vh;
-    right: 25vw; 
+    display: flex;
+    flex-direction: row;
+    background: rgb(6,4,40);
+    background: linear-gradient(222deg, rgba(6,4,40,1) 0%, rgba(16,13,69,1) 18%, rgba(42,34,139,1) 85%, rgba(130,72,246,1) 97%);
+    /* top: 35vh;
+    right: 25vw;  */
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -305px;
     width:600px;
     height: 350px;
     position: fixed;
-    background: cadetblue;
+    border: 8px double #00F0F2;
+    outline-offset: 6px;
+    border-radius: 9%;
+}
+article img {
+    display: flex;
+    width: 400px;
+}
+.card-info-container {
+    display: flex;
+}
+.card-top {
+    display: flex;
+    height: 1.5em;
+    background: burlywood;
+}
+.card-info {
+    display: flex;
+    height: 250px;
+    background: blanchedalmond;
 }
 button {
     height: 26px;
+    border-radius: 10%;
+
 }
 input {
     height: 20px;
+    border-radius: 10%;
+
 }
 main {
     display: flex;
@@ -57,5 +93,6 @@ main {
     position: relative;
     color: black;
     margin: 10px;
-    border: 10px rgb(111, 111, 111) solid;
+    border: 7px #C0891F double;
+    border-radius: 20%;
 }

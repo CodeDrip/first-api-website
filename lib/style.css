@@ -27,6 +27,9 @@ button {
     display: inline-block;
     height: 20px;
 }
+content {
+    background: black;
+}
 article {
     /* visibility: hidden; */
     visibility: visible;
@@ -45,22 +48,30 @@ article {
     outline-offset: 6px;
     border-radius: 9%;
 }
-article img {
-    display: flex;
-    width: 400px;
+
+img {
+    width: 350px;
+    float: left;
 }
-.card-info-container {
-    display: flex;
+article .card-info {
+    float: right;
+    width: 250px;
+    height: 50px;
+    background: black;
 }
-.card-top {
-    display: flex;
-    height: 1.5em;
-    background: burlywood;
+article .card-title {
+    float: right;
+    top: 50px;
+    height: 75px;
+    width: 250px;
+    background: blue;
 }
-.card-info {
-    display: flex;
-    height: 250px;
-    background: blanchedalmond;
+article .card-description {
+    float: right;
+
+    height: 275px;
+    width: 250px;
+    background: blueviolet;
 }
 button {
     height: 26px;

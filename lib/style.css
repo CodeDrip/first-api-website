@@ -14,6 +14,7 @@ h1 {
 }
 h3 {
     color: cornsilk;
+    font-size: 80px;
 
 }
 button {
@@ -27,14 +28,12 @@ button {
     height: 20px;
 }
 article {
-    visibility: hidden;
-    /* visibility: visible; */
+    /* visibility: hidden; */
+    visibility: visible;
     display: flex;
     flex-direction: row;
-    background: rgb(6,4,40);
-    background: linear-gradient(222deg, rgba(6,4,40,1) 0%, rgba(16,13,69,1) 18%, rgba(42,34,139,1) 85%, rgba(130,72,246,1) 97%);
-    /* top: 35vh;
-    right: 25vw;  */
+    /* background: rgb(6,4,40);
+    background: linear-gradient(222deg, rgba(6,4,40,1) 0%, rgba(16,13,69,1) 18%, rgba(42,34,139,1) 85%, rgba(130,72,246,1) 97%); */
     top: 50%;
     left: 50%;
     margin-top: -175px;

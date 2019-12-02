@@ -2,15 +2,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: rgb(6,4,40);
-    background: linear-gradient(149deg, rgba(6,4,40,1) 0%, rgba(5,0,102,1) 100%);
-    color: pink;
+    background: rgb(6,2,70);
+    background: radial-gradient(circle, rgba(6,2,70,1) 19%, rgba(0,0,0,1) 100%);    color: #007B90;
     margin: 0 auto;
     text-align: center;
 
 }
 h1 {
     display: block;
+    color: #C0891F;
 }
 h3 {
     color: cornsilk;
@@ -18,7 +18,12 @@ h3 {
 
 }
 button {
-    background: red;
+    height: 26px;
+    border-radius: 10%;
+    background: rgb(6,2,70);
+    background: linear-gradient(231deg, rgba(6,2,70,1) 37%, rgba(0,0,0,1) 100%);;
+    color: #00EAF1;
+
 }
 .hidden {
     display: block;
@@ -31,8 +36,8 @@ content {
     background: black;
 }
 article {
-    /* visibility: hidden; */
-    visibility: visible;
+    visibility: hidden;
+    /* visibility: visible; */
     display: flex;
     flex-direction: row;
     /* background: rgb(6,4,40);
@@ -44,10 +49,11 @@ article {
     width:600px;
     height: 350px;
     position: fixed;
-    border: 8px double #00F0F2;
+    border: 8px #C0891F double;
     outline-offset: 6px;
     border-radius: 9%;
 }
+
 
 img {
     width: 350px;
@@ -74,11 +80,7 @@ article .card-description {
     width: 250px;
     background: blueviolet;
 }
-button {
-    height: 26px;
-    border-radius: 10%;
 
-}
 input {
     height: 20px;
     border-radius: 10%;

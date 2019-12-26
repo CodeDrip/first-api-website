@@ -23,6 +23,7 @@ button {
     background: rgb(6,2,70);
     background: linear-gradient(231deg, rgba(6,2,70,1) 37%, rgba(0,0,0,1) 100%);;
     color: #00EAF1;
+    background: rgb(70, 70, 70);
 
 }
 .hidden {
@@ -84,6 +85,8 @@ article .card-description {
 input {
     height: 20px;
     border-radius: 10%;
+    background: grey;
+    border: 3px rgb(48, 48, 48) solid;
 
 }
 main {
@@ -107,5 +110,13 @@ main {
     color: black;
     margin: 10px;
     border: 7px #C0891F double;
-    border-radius: 20%;
+    border-radius: 9%;
 }
+/* #img2 {
+        visibility: visible;
+
+} */
+
+/* #card11 {
+    visibility: hidden;
+} */

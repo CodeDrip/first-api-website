@@ -83,31 +83,7 @@ content {
 	pointer-events: none; */
 }
 article {
-    /* visibility: hidden; */
-    /* visibility: visible; */
-    
-    /* width: 60vw;
-    height: 40vh;
-    line-height: 200px;
-    position: fixed;
-    top: 50%; 
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -150px;
-    background-color: #f1c40f;
-    border-radius: 5px;
-    text-align: center;
-    z-index: 11;
-     */
-    
-    
-    
-    
-    
-    
-    
-     visibility: hidden; 
-
+    visibility: hidden; 
     display: flex;
     flex-direction: row;
     background: rgb(6,4,40);
@@ -116,18 +92,19 @@ article {
     left: 50%;
     margin-top: -175px;
     margin-left: -305px;
-    width:600px;
+    width:604px;
     height: 350px;
     position: fixed;
-    border: 8px #C0891F double;
+    border: 4px #C0891F double;
     outline-offset: 6px;
-    border-radius: 9%;
+    border-radius: 1%;
 }
 
 
 img {
     width: 350px;
     float: left;
+    border-right: 4px #C0891F double;
 }
 article .card-info-container {
     float: right;
@@ -138,17 +115,26 @@ article .card-info-container {
 article .card-title {
     float: right;
     top: 50px;
-    height: 75px;
+    height: 100px;
     width: 250px;
-    background: blue;
+    background: rgb(0, 0, 22);
+}
+article .card-title p {
+    padding-top: 10px;
+    font-size: 1.5em;
 }
 article .card-description {
 
     float: right;
     bottom: 50px;
-    height: 275px;
+    height: 250px;
     width: 250px;
-    background: blueviolet;
+    background: rgb(68, 68, 68);
+}
+
+article .card-description p {
+    font-size: 1.05em;
+    font-weight: 700;
 }
 
 input {

@@ -80,7 +80,10 @@ fetch(`${url}`)
         //assign background to divs
         assignedImg = smallerArray[i].links[0].href
         document.getElementById(newDiv.id).style.background = `url(${assignedImg})`;
-
+        document.getElementById(newDiv.id).style.backgroundPosition = `center`;
+        document.getElementById(newDiv.id).style.backgroundRepeat = `no-repeat`;
+        document.getElementById(newDiv.id).style.backgroundSize = `cover`;
+        document.getElementById(newDiv.id).style.position = `relative`;
 
 
 
@@ -159,8 +162,8 @@ fetch(`${url}`)
         newImg.src = smallerArray[i].links[0].href
 
 
-        newTitle.innerHTML = smallerArray[i].data[0].title
-        newDescr.innerHTML = smallerArray[i].data[0].description
+        newTitle.innerHTML = `<p>${smallerArray[i].data[0].title}</p>`
+        newDescr.innerHTML = `<p>${smallerArray[i].data[0].description}</p>`
 
 
 
@@ -173,7 +176,7 @@ fetch(`${url}`)
             document.querySelectorAll(`article`)[10].style.visibility = "visible"
             document.querySelector(`.over-flow`).style.visibility = "visible"
           } 
-          if (clickDiv == 013){
+          else if (clickDiv == 013){
             console.log(document.querySelectorAll(`article`)[11])
             document.querySelectorAll(`article`)[11].style.visibility = "visible"
             document.querySelector(`.over-flow`).style.visibility = "visible"

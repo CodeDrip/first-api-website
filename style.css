@@ -6,7 +6,6 @@ body {
     background: radial-gradient(circle, rgba(6,2,70,1) 19%, rgba(0,0,0,1) 100%);    color: #007B90;
     margin: 0 auto;
     text-align: center;
-
 }
 h1 {
     display: block;
@@ -15,7 +14,6 @@ h1 {
 h3 {
     color: cornsilk;
     font-size: 80px;
-
 }
 button {
     height: 26px;
@@ -24,7 +22,6 @@ button {
     background: linear-gradient(231deg, rgba(6,2,70,1) 37%, rgba(0,0,0,1) 100%);;
     color: #00EAF1;
     background: rgb(70, 70, 70);
-
 }
 .hidden {
     display: block;
@@ -118,6 +115,9 @@ article .card-title {
     height: 100px;
     width: 250px;
     background: rgb(0, 0, 22);
+    color: bisque;
+    /* padding: 0 5px; */
+
 }
 article .card-title p {
     padding-top: 10px;
@@ -129,7 +129,9 @@ article .card-description {
     bottom: 50px;
     height: 250px;
     width: 250px;
-    background: rgb(68, 68, 68);
+    background: rgb(0, 0, 22);
+    color: bisque;
+    
 }
 
 article .card-description p {
@@ -151,21 +153,11 @@ main {
     justify-content: center;
 }
 .square {
-    float: left;
-    display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
     height: 200px;
     width: 300px;
-    /* background: pink; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: black;
     margin: 10px;
     border: 7px #C0891F double;
-    border-radius: 3%;
+    border-radius: 3%;  
 }
 /* #img2 {
         visibility: visible;

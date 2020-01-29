@@ -83,8 +83,8 @@ article {
     visibility: hidden; 
     display: flex;
     flex-direction: row;
-    background: rgb(6,4,40);
-    background: linear-gradient(222deg, rgba(6,4,40,1) 0%, rgba(16,13,69,1) 18%, rgba(42,34,139,1) 85%, rgba(130,72,246,1) 97%); 
+    /* background: rgb(6,4,40);
+    background: linear-gradient(222deg, rgba(6,4,40,1) 0%, rgba(16,13,69,1) 18%, rgba(42,34,139,1) 85%, rgba(130,72,246,1) 97%);  */
     top: 50%;
     left: 50%;
     margin-top: -175px;
@@ -97,13 +97,31 @@ article {
     border-radius: 1%;
 }
 
+.modal-nav {
+    position: fixed;
+    width: 608px;
+    height: 15px;
+    background-color: chartreuse;
+    top: 50%;
+    left: 50%;
+    margin-top: -194px;
+    margin-left: -305px;
+}
+.x-button {
+    float: right;
+}
 
 img {
+    visibility: hidden;
+
     width: 350px;
     float: left;
     border-right: 4px #C0891F double;
 }
 article .card-info-container {
+
+    visibility: hidden;
+
     float: right;
     width: 250px;
     height: 350px;

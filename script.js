@@ -96,6 +96,9 @@ fetch(`${url}`)
         var overFlow = document.createElement('div');
         overFlow.className = "over-flow"
 
+        var newNav = document.createElement('div')
+        newNav.className = `modal-nav`
+        newNav.innerHTML = `<p classname ="x-button">X</p>`
 
         var newCard = document.createElement('article');
         newCard.id = "card0" + i;
@@ -147,8 +150,10 @@ fetch(`${url}`)
 
         document.querySelector('.over-flow').append(newCard);
         //insert children
+        //nav
+        newCard.insertAdjacentElement('afterbegin', newNav)
         //new Card kid - img
-        newCard.insertAdjacentElement('afterbegin', newImg);
+        newCard.insertAdjacentElement('beforeend', newImg);
         //newCard kid - cardinfo
         newCard.insertAdjacentElement('beforeend', newInfo);
         //create card Info Kids

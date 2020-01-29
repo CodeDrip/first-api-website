@@ -98,7 +98,11 @@ fetch(`${url}`)
 
         var newNav = document.createElement('div')
         newNav.className = `modal-nav`
-        newNav.innerHTML = `<p classname ="x-button">X</p>`
+
+        var xBut = document.createElement(`p`)
+        xBut.className = "x-button"
+        xBut.innerHTML = 'X'
+        // newNav.innerHTML = `<p classname ="x-button">X</p>`
 
         var newCard = document.createElement('article');
         newCard.id = "card0" + i;
@@ -152,6 +156,8 @@ fetch(`${url}`)
         //insert children
         //nav
         newCard.insertAdjacentElement('afterbegin', newNav)
+        //nav X
+        newNav.insertAdjacentElement('afterbegin', xBut)
         //new Card kid - img
         newCard.insertAdjacentElement('beforeend', newImg);
         //newCard kid - cardinfo

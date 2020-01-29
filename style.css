@@ -98,17 +98,27 @@ article {
 }
 
 .modal-nav {
-    position: fixed;
-    width: 608px;
-    height: 15px;
-    background-color: chartreuse;
-    top: 50%;
-    left: 50%;
-    margin-top: -194px;
-    margin-left: -305px;
+     /* visibility: hidden; */
+     position: fixed;
+     width: 605px;
+     /* height: 15px; */
+     background-color: rgba(128, 255, 0, 0.5);
+     top: 50%;
+     left: 50%;
+     margin-top: -228px;
+     margin-left: -305px;
+     border: 4px #C0891F double;
+     /* outline-offset: 6px; */
+     border-radius: 1%;
 }
+
 .x-button {
+    visibility: visible;
+
     float: right;
+    color: coral;
+    /* display: inline; */
+    margin-right: 8px;
 }
 
 img {

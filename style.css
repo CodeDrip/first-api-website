@@ -126,7 +126,7 @@ article {
     cursor: pointer;
 }
 img {
-    visibility: hidden;
+    /* visibility: hidden; */
 
     width: 350px;
     float: left;
@@ -134,7 +134,7 @@ img {
 }
 article .card-info-container {
 
-    visibility: hidden;
+    /* visibility: hidden; */
 
     float: right;
     width: 250px;

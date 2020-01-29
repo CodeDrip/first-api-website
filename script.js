@@ -102,6 +102,7 @@ fetch(`${url}`)
         var xBut = document.createElement(`p`)
         xBut.className = "x-button"
         xBut.innerHTML = 'X'
+        xBut.id = `${i}`
         // newNav.innerHTML = `<p classname ="x-button">X</p>`
 
         var newCard = document.createElement('article');
@@ -252,14 +253,60 @@ fetch(`${url}`)
               document.querySelector(`.over-flow`).style.visibility = "hidden"
 
 
-              console.log("click")
+              // console.log("click")
             
             }
             else {
-              console.log("not target")
+              // console.log("not target")
+              console.log("ignore")
             }
         }
 
+
+        xBut.addEventListener("click", function(){
+         
+
+          if (event.target == document.querySelectorAll(`.x-button`)) {
+            // var openModal = document.querySelectorAll('card-container')[i]
+
+            // document.querySelectorAll('article')[i].style.visibility = "hidden";
+            // console.log("this hppened")
+            // console.log(openModal)
+            // console.log(document.querySelectorAll('.card-container'))
+            // document.querySelectorAll(`article`)[0].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[1].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[2].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[3].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[4].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[5].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[6].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[7].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[8].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[9].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[10].style.visibility = "hidden"
+            // document.querySelectorAll(`article`)[11].style.visibility = "hidden"
+            // document.querySelector(`.over-flow`).style.visibility = "hidden"
+
+
+            console.log("click")
+          
+          }
+          else {
+            document.querySelectorAll(`article`)[0].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[1].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[2].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[3].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[4].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[5].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[6].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[7].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[8].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[9].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[10].style.visibility = "hidden"
+            document.querySelectorAll(`article`)[11].style.visibility = "hidden"
+            document.querySelector(`.over-flow`).style.visibility = "hidden"
+          }
+      })
 
 
 

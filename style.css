@@ -102,7 +102,7 @@ article {
      position: fixed;
      width: 605px;
      /* height: 15px; */
-     background-color: rgba(128, 255, 0, 0.5);
+     background-color: rgba(192, 138, 31, 0.515);
      top: 50%;
      left: 50%;
      margin-top: -228px;
@@ -113,14 +113,18 @@ article {
 }
 
 .x-button {
-    visibility: visible;
+    /* visibility: hidden; */
 
     float: right;
     color: coral;
     /* display: inline; */
     margin-right: 8px;
+    
 }
 
+.x-button:hover {
+    cursor: pointer;
+}
 img {
     visibility: hidden;
 

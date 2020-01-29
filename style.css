@@ -97,10 +97,12 @@ article {
     border-radius: 1%;
 }
 
+
+
 .modal-nav {
      /* visibility: hidden; */
      position: fixed;
-     width: 605px;
+     width: 604px;
      /* height: 15px; */
      background-color: rgba(192, 138, 31, 0.515);
      top: 50%;
@@ -190,6 +192,9 @@ main {
     margin: 10px;
     border: 7px #C0891F double;
     border-radius: 3%;  
+}
+.square:hover {
+    cursor: pointer;
 }
 /* #img2 {
         visibility: visible;
